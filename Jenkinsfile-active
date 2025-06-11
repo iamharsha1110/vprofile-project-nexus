@@ -4,7 +4,7 @@ agent any
     stage ('Build'){
       steps{
         echo "Building main-3"
-        echo "main-3 Branch is triggerred."
+        echo "main-3 Branch is triggerred at 2:54 pm."
       }
     }
   }
