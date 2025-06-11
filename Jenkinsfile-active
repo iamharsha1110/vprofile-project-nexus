@@ -7,6 +7,7 @@ agent any
         echo "main-3 Branch is triggerred at 3.15 pm."
         echo "Building main-2"
         echo "main-2 Branch is triggerred 3.15 pm wednesday."
+        sleep(45)
       }
     }
   }
