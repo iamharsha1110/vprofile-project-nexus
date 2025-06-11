@@ -3,8 +3,8 @@ agent any
   stages{
     stage ('Build'){
       steps{
-        echo "Building release-1.0"
-        echo "Release Branch is triggerred."
+        echo "Building main-3"
+        echo "main-3 Branch is triggerred."
       }
     }
   }
