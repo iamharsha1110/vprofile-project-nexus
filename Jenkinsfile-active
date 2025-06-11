@@ -4,9 +4,10 @@ agent any
     stage ('Build'){
       steps{
         echo "Building main-3"
-        echo "main-3 Branch is triggerred at 2:59 pm."
+        echo "main-3 Branch is triggerred at 4.40 pm."
         echo "Building main-2"
-        echo "main-2 Branch is triggerred 2.20 pm wednesday."
+        echo "main-2 Branch is triggerred 4.40 pm wednesday."
+        sleep(100)
       }
     }
   }
